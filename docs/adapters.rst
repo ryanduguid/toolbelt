@@ -28,8 +28,8 @@ FingerprintAdapter
 
 By default, requests will validate a server's certificate to ensure a
 connection is secure. In addition to this, the user can provide a fingerprint
-of the certificate they're expecting to receive. Unfortunately, the requests
-API does not support this fairly rare use-case. When a user needs this extra
+of the certificate they're expecting to receive. The requests API
+does not support this use case. When a user needs this extra
 validation, they should use the
 :class:`~requests_toolbelt.adapters.fingerprint.FingerprintAdapter` class to
 perform the validation.
